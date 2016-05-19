@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DemoLogIn</string>
+    <string name="facebook_app_id">453337934875249</string>
+    <string name="action_settings">Settings</string>
+    <string name="expand">Expand/Collapse ActionBar</string>
+    <string name="paralax">ActionBar Parallax Animations</string>
+    <string name="name">Name:</string>
+    <string name="user_name">User_Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="gender">Gender</string>
+    <string name="email">Email</string>
+</resources>
