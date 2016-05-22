@@ -52,7 +52,7 @@ public class ShowProfileInformation extends AppCompatActivity {
         name = hashMap.get("name");
         id = hashMap.get("id");
         birthday = hashMap.get("birthday");
-        imgUrl = hashMap.get("imgUrl");
+        imgUrl = hashMap.get("imgurl");
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

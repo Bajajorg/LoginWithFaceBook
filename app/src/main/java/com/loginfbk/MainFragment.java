@@ -39,7 +39,7 @@ import java.util.HashMap;
 public class MainFragment extends Fragment {
 
     private CallbackManager callbackManager;
-    private TextView textView;
+    //private TextView textView;
 
     private AccessTokenTracker accessTokenTracker;
     private ProfileTracker profileTracker;
@@ -149,7 +149,7 @@ public class MainFragment extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         LoginButton loginButton = (LoginButton) view.findViewById(R.id.login_button);
-        textView = (TextView) view.findViewById(R.id.textView);
+        //textView = (TextView) view.findViewById(R.id.textView);
 
         loginButton.setReadPermissions(Arrays.asList(
                 "public_profile", "email", "user_birthday", "user_friends"));
@@ -167,7 +167,7 @@ public class MainFragment extends Fragment {
 
     private void displayMessage(Profile profile){
         if(profile != null){
-            textView.setText(profile.getName());
+            Log.d("chk", profile.toString());
         }
     }
 
